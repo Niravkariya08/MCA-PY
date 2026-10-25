@@ -1,3 +1,4 @@
+# Write a program to demonstrate basic regular expression pattern matching.
 import regex
 
 print('--------Regex Operations--------')
