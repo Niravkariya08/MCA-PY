@@ -1,6 +1,6 @@
 # 1. Write a program to demonstrate conditional statements using if if-else and if-elif-else.
-user_name=input("Enter User name:")
-user_pass=int(input("Enter Password"))
+user_name=input("Enter User Name :")
+user_pass=int(input("Enter Password :"))
 
 if user_pass == 1234:
     print("Login successfully....")

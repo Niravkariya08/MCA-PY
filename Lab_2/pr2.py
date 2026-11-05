@@ -1,5 +1,5 @@
 # 2.Write a program to check whether a number is positive negative or zero using nested conditions.
-num1  = int(input("Enter Number"))
+num1  = int(input("Enter Number : "))
 
 if num1 >=1:
     print("Number is Positive")

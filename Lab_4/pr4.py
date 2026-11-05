@@ -25,7 +25,7 @@ class printUserInfo :
         print('Percentage of marks:',f'{percentage:.2f}%')
         print('Result:',result)
         print('----------------------------------')
-        print(f'{'Congo' if result == 'Pass' else 'we are sorry'}' )
+        print(f'{'congratulations' if result == 'Pass' else 'we are sorry'}' )
         print('----------------------------------')
         
     @staticmethod
@@ -37,4 +37,4 @@ class printUserInfo :
         
 s1 = printUserInfo('Nirav', 21, 'Gondal')    
 s1.print_info()   
-s1.UserResult(10, 8, 7)
+s1.UserResult(84, 88, 78)

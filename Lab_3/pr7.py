@@ -4,12 +4,14 @@ import shutil
 
 # 1. COPY a file
 shutil.copy("source.txt", "copied.txt")
+print("File Successfully Created")
 
 # # 2. MOVE or Rename a file
 # shutil.move("copied.txt", "moved_file.txt")
 
+
 # # 3. DELETE a whole folder (and everything inside)
 # shutil.rmtree(".ipynb_checkpoints")
 
-# # Bonus: DELETE a single file (uses os module)
+# DELETE a single file (uses os module)
 # os.remove("moved_file.txt")

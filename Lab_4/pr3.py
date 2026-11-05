@@ -8,8 +8,8 @@ class printUserInfo :
         self.city = city
     
     def print_info(self):
-        print(f"College: {self.clg}")
-        print(f"\nName: {self.name}")
+        print(f"\nCollege: {self.clg}")
+        print(f"Name: {self.name}")
         print(f"Age: {self.age}")
         print(f"City: {self.city}")
         
